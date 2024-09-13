@@ -1,8 +1,17 @@
     *{
+
         margin: 0;
         padding: 0;
         box-sizing: border-box;
         font-family: 'Titillium Web', sans-serif;
+    }
+
+
+
+
+    :root {
+    --gray-800: #1E293B;
+    --gray-600:  #475569;
     }
 
     header{
@@ -13,5 +22,18 @@
         display: flex;
         justify-content: center;
         align-items: center;
+
+        margin-bottom: 3.7rem;
+    }  
+
+
+
+
+    main {
+        padding-inline: 1.5rem;
     }
 
+    .descrição h1 {
+     color: var(--gray-800);
+     margin-bottom: 1rem;
+    }
