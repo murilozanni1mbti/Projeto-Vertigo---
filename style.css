@@ -124,7 +124,14 @@
         font-size: 1rem;
     }
 
+    .bg-desktop {
+        display: none;
+    }
+
     @media (min-width: 1000px) {
+        body {
+            display: flex;
+        }
         header {
             background: none;
             justify-content: flex-start;
@@ -135,5 +142,8 @@
         }
         main {
             padding-inline: 7rem;
+        }
+        .bg-desktop {
+            display: block;
         }
     }
